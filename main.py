@@ -1,28 +1,14 @@
-import Char
-
-
-def get_char():
-    name = input("name: ")
-    return Char.Char(name)
-
-
-def fight(attacker, target):
-    attacker.attack(target)
+import battle
+import char_gen
 
 
 def main():
-    me = get_char()
-    enemy = get_char()
+    me = char_gen.get_char()
+    enemy = char_gen.get_char()
 
     contestants = [me, enemy]
 
-    while me.alive or enemy.alive:
-        fight(contestants[0], contestants[1])
-        if me.alive is False or enemy.alive is False:
-            print("over")
-            break
-        else:
-            contestants.reverse()
+    battle.battle(contestants)
 
 
 if __name__ == '__main__':
