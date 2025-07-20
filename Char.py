@@ -27,9 +27,12 @@ class Char:
             print(f"{self.name} hit {target.name}!")
         else:
             print(f"{self.name} missed {target.name}!")
+            pass
 
+        print("")
         print(f"{self.name}'s Health: {self.health}")
         print(f"{target.name}'s Health: {target.health}")
+        print("")
 
         if target.health <= 0:
             target.alive = False

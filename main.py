@@ -3,10 +3,10 @@ import char_gen
 
 
 def main():
-    me = char_gen.get_char()
+    player = char_gen.get_char()
     enemy = char_gen.get_char()
 
-    contestants = [me, enemy]
+    contestants = [player, enemy]
 
     battle.battle(contestants)
 
