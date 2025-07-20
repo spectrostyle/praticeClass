@@ -24,14 +24,16 @@ class Char:
 
         if self.gen_acc() > target.avoidance:
             target.health -= self.damage
-            print(f"{self.name} hit {target.name}!")
+            print(f"!!{self.name} hit {target.name}!!")
         else:
             print(f"{self.name} missed {target.name}!")
             pass
 
         print("")
+        print("-----------------------")
         print(f"{self.name}'s Health: {self.health}")
         print(f"{target.name}'s Health: {target.health}")
+        print("-----------------------")
         print("")
 
         if target.health <= 0:
