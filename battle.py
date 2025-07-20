@@ -1,9 +1,5 @@
-# add commands fight/run
-from main import *
-
-
 def battle(contestants):
-    round = 0
+    att_round = 0
     attacker = contestants[0]
     target = contestants[1]
 
@@ -12,7 +8,7 @@ def battle(contestants):
     while attacker.alive or target.alive:
 
         if attacker.name == contestants[0].name:
-            round += 1
+            att_round += 1
             print("*" * 20)
             print(f"Round: {round}")
             print("")
@@ -20,8 +16,6 @@ def battle(contestants):
             input("Press to continue...")
 
         print(f"{contestants[0].name} is attacking...")
-
-
 
         fight(contestants[0], contestants[1])
 
@@ -32,7 +26,6 @@ def battle(contestants):
             break
         else:
             contestants.reverse()
-
 
 
 def fight(attacker, target):
