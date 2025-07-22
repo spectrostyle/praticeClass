@@ -10,10 +10,11 @@ def battle(contestants):
         if attacker.name == contestants[0].name:
             att_round += 1
             print("*" * 20)
-            print(f"Round: {round}")
+            print(f"Round: {att_round}")
             print("")
 
             input("Press to continue...")
+            select_options()
 
         print(f"{contestants[0].name} is attacking...")
 
@@ -30,3 +31,12 @@ def battle(contestants):
 
 def fight(attacker, target):
     attacker.attack(target)
+
+
+def select_options():
+    options = ["fight", "run"]
+    while True:
+        for x in options:
+            print(x)
+        input()
+    pass

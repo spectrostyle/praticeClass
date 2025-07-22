@@ -39,3 +39,4 @@ class Char:
         if target.health <= 0:
             target.alive = False
             print(f"{target.name} has died!")
+2
