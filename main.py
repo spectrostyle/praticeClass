@@ -9,16 +9,14 @@ from Display import *
 def main():
     window = Display()
 
-    main_menu()
+    main_menu(window)
 
     window.run()
 
-    player = get_char()
+    """player = get_char()
     enemy = get_char()
-
     contestants = [player, enemy]
-
-    battle(contestants)
+    battle(contestants)"""
 
     window.run()
 
