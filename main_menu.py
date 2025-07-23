@@ -1,9 +1,11 @@
-import Menu
+from Menu import *
+
 
 def main_menu(display):
     title = "Main Menu"
     options = ["New Game", "Load Game", "Help", "Exit"]
+    navigatable = True
 
-    main_menu = Menu.Menu(title, options, display)
+    menu = Menu(title, options, display, navigatable)
 
-    main_menu.display_this_menu()
+    menu.display_this_menu()

@@ -15,3 +15,6 @@ class Display:
     def print(self, text):
         self.text.insert('end', text + '\n')
         self.text.see('end')
+
+    def clear(self):
+        self.text.delete(1.0, 'end')
