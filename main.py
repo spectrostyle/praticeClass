@@ -1,3 +1,4 @@
+import main_menu
 from battle import *
 from char_gen import *
 

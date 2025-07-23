@@ -1,19 +1,21 @@
 class Menu:
-    def __init__(self, title, options, display, navigatable):
+    def __init__(self, title, options, display, navigable, when_selected=None):
         self.title = title
         self.options = options
-        self.navigatable = navigatable
+        self.navigable = navigable
         self.index = 0
 
         self.display = display
 
+        self.when_selected = when_selected
+
     def display_this_menu(self):
 
-        if self.navigatable is True:
+        if self.navigable is True:
 
-            self.display.root.bind("<Down>", self.main_key_press)
-            self.display.root.bind("<Up>", self.main_key_press)
-            #self.display.root.bind("<Return>", main_selection)
+            self.display.root.bind("<Down>", self.key_press)
+            self.display.root.bind("<Up>", self.key_press)
+            self.display.root.bind("<Return>", self.key_press)
 
             for i, option in enumerate(self.options):
                 if i == self.index:
@@ -21,7 +23,7 @@ class Menu:
                 else:
                     self.display.print(f"  {option}\n")
 
-    def main_key_press(self, key):
+    def key_press(self, key):
         if key.keysym == "Down":
             self.index = (self.index + 1) % len(self.options)
         elif key.keysym == "Up":
@@ -30,3 +32,11 @@ class Menu:
         self.display.clear()
         self.display_this_menu()
 
+        if key.keysym == "Return":
+            self.display.clear()
+            if self.when_selected:
+                transition_scene = self.options[self.index]
+                self.when_selected(transition_scene)
+
+        else:
+            pass
