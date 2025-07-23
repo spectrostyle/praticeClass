@@ -35,8 +35,6 @@ class Menu:
         if key.keysym == "Return":
             self.display.clear()
             if self.when_selected:
+
                 transition_scene = self.options[self.index]
                 self.when_selected(transition_scene)
-
-        else:
-            pass

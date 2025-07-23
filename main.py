@@ -19,8 +19,6 @@ def main():
     contestants = [player, enemy]
     battle(contestants)"""
 
-    window.run()
-
 
 if __name__ == '__main__':
     main()
