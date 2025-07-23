@@ -1,14 +1,26 @@
-import battle
-import char_gen
+from battle import *
+from char_gen import *
+
+from main_menu import *
+
+from Display import *
 
 
 def main():
-    player = char_gen.get_char()
-    enemy = char_gen.get_char()
+    window = Display()
+
+    main_menu()
+
+    window.run()
+
+    player = get_char()
+    enemy = get_char()
 
     contestants = [player, enemy]
 
-    battle.battle(contestants)
+    battle(contestants)
+
+    window.run()
 
 
 if __name__ == '__main__':

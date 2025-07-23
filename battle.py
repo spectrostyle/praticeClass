@@ -1,3 +1,5 @@
+import Menu
+
 def battle(contestants):
     att_round = 0
     attacker = contestants[0]
@@ -35,8 +37,12 @@ def fight(attacker, target):
 
 def select_options():
     options = ["fight", "run"]
-    while True:
+    fight_menu = Menu.Menu("title", options)
+
+    fight_menu.display()
+
+    """while True:
         for x in options:
             print(x)
-        input()
+        input()"""
     pass
