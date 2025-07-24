@@ -1,17 +1,16 @@
+from Classes import Menu
 
-def save_menu(display):
+
+def save_menu(mainWindow):
     title = "Save Menu"
 
     saved_games = [1, 2, 3, 4]
     options = []
+
     navigable = True
 
     for x in saved_games:
         options.append(x)
 
-    def handle_selection(choice):
-        main_menu(display)
-        pass
-
-    saveMenu = Menu(title, options, display, navigable, when_selected=handle_selection)
+    saveMenu = Menu.Menu(title, options, mainWindow, navigable)
     saveMenu.display_this_menu()

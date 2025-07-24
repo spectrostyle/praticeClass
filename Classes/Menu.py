@@ -8,8 +8,8 @@ class Menu:
         self.navigable = navigable
         self.mainWindow = mainWindow
 
-        self.index = 0
         self.selected_option = None
+        self.index = 0
 
 
     def display_this_menu(self):
@@ -32,12 +32,11 @@ class Menu:
             self.index = (self.index + 1) % len(self.options)
         elif key.keysym == "Up":
             self.index = (self.index - 1) % len(self.options)
-
         self.mainWindow.clear()
         self.display_this_menu()
 
         if key.keysym == "Return":
-            self.selected_option = self.options[self.index]
+            self.selected_option = self.options[self.index].lower().replace(" ", "_")
             self.handle_selected_option()
 
 
