@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f10e5cc-a96e-4672-a584-9dd6a3a82899" name="Changes" comment="currently seems to be ok, will learn more, may want to learn to use a directory for handle selection for menu class, unsure">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Char.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Char.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Display.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battle.py" beforeDir="false" afterPath="$PROJECT_DIR$/battle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char_gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/char_gen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/help_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/help_menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/main_menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/save_menu.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="addingMenu" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="302he1z3kqzvnDJkFDa4N5SXqRu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "scenes__manager",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/13522/PycharmProjects/pythonProject1"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pythonProject1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f10e5cc-a96e-4672-a584-9dd6a3a82899" name="Changes" comment="" />
+      <created>1752831666168</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752831666168</updated>
+    </task>
+    <task id="LOCAL-00001" summary="adding stuff">
+      <option name="closed" value="true" />
+      <created>1753227893880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753227893880</updated>
+    </task>
+    <task id="LOCAL-00002" summary="working with more classes and learning if to make the display class, locking this in before more changes">
+      <option name="closed" value="true" />
+      <created>1753236324252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753236324252</updated>
+    </task>
+    <task id="LOCAL-00003" summary="having main menu displayed, inputs next?">
+      <option name="closed" value="true" />
+      <created>1753237064231</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753237064231</updated>
+    </task>
+    <task id="LOCAL-00004" summary="shaping up nicely? added up and down cursor to text menus?">
+      <option name="closed" value="true" />
+      <created>1753238672373</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753238672373</updated>
+    </task>
+    <task id="LOCAL-00005" summary="shaping up nicely? added up and down cursor to text menus?">
+      <option name="closed" value="true" />
+      <created>1753240802959</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753240802959</updated>
+    </task>
+    <task id="LOCAL-00006" summary="currently seems to be ok, will learn more, may want to learn to use a directory for handle selection for menu class, unsure">
+      <option name="closed" value="true" />
+      <created>1753244183631</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753244183631</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding stuff" />
+    <MESSAGE value="working with more classes and learning if to make the display class, locking this in before more changes" />
+    <MESSAGE value="having main menu displayed, inputs next?" />
+    <MESSAGE value="shaping up nicely? added up and down cursor to text menus?" />
+    <MESSAGE value="currently seems to be ok, will learn more, may want to learn to use a directory for handle selection for menu class, unsure" />
+    <option name="LAST_COMMIT_MESSAGE" value="currently seems to be ok, will learn more, may want to learn to use a directory for handle selection for menu class, unsure" />
+  </component>
+</project>
