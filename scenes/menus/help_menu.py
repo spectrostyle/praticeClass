@@ -1,17 +1,15 @@
 from Classes import Menu
 from scenes import sceneManager
 
-def help_menu(display):
+def help_menu(mainWindow):
     title = "Help Menu"
 
     help_text = "PLACE HOLDER"
 
     options = [f"{help_text}", "exit"]
     navigable = False
+    
 
-    def handle_selection(choice):
-        pass
+    helpMenu = Menu.Menu(title, options, mainWindow, navigable)
 
-    helpMenu = Menu.Menu(title, options, display, navigable, when_selected=handle_selection)
-
-    helpMenu.display.print(f"{help_text}")
+    helpMenu.mainWindow.print(f"{help_text}")

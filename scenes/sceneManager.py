@@ -17,6 +17,7 @@ def load_scene_files():
 
 
 def switch_scenes(text, mainWindow):
+    mainWindow.clear()
     selected_scene = scene_registry[text]
     return selected_scene(mainWindow)
     
