@@ -1,4 +1,4 @@
-from main_menu import *
+from scenes.main_menu import *
 
 
 def help_menu(display):
@@ -12,5 +12,6 @@ def help_menu(display):
     def handle_selection(choice):
         pass
 
-    menu = Menu(title, options, display, navigable, when_selected=handle_selection)
-    menu.display.print(f"{help_text}")
+    helpMenu = Menu(title, options, display, navigable, when_selected=handle_selection)
+
+    helpMenu.display.print(f"{help_text}")

@@ -1,10 +1,10 @@
-import main_menu
+import scenes.main_menu as main_menu
 from battle import *
 from char_gen import *
 
-from main_menu import *
+from scenes.main_menu import *
 
-from Display import *
+from Classes.Display import *
 
 
 def main():

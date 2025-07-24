@@ -1,6 +1,8 @@
-from Menu import *
-from save_menu import *
-from help_menu import *
+import Classes.Char as Char
+from Classes.Menu import *
+from scenes.save_menu import *
+from scenes.help_menu import *
+import char_gen
 
 
 def main_menu(display):
@@ -11,7 +13,7 @@ def main_menu(display):
     def handle_selection(choice):
         if choice == "New Game":
             display.print("Starting a new game...")
-
+            char_gen.get_char(display)
         elif choice == "Load Game":
             save_menu(display)
         elif choice == "Help":
@@ -19,5 +21,5 @@ def main_menu(display):
         elif choice == "Exit":
             exit()
 
-    menu = Menu(title, options, display, navigable, when_selected=handle_selection)
-    menu.display_this_menu()
+    mainMenu = Menu(title, options, display, navigable, when_selected=handle_selection)
+    mainMenu.display_this_menu()

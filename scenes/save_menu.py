@@ -1,5 +1,5 @@
-import main_menu
-from main_menu import *
+import scenes.main_menu as main_menu
+from scenes.main_menu import *
 
 
 def save_menu(display):
@@ -16,5 +16,5 @@ def save_menu(display):
         main_menu.main_menu(display)
         pass
 
-    menu = Menu(title, options, display, navigable, when_selected=handle_selection)
-    menu.display_this_menu()
+    saveMenu = Menu(title, options, display, navigable, when_selected=handle_selection)
+    saveMenu.display_this_menu()

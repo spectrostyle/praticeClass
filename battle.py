@@ -1,4 +1,4 @@
-import Menu
+import Classes.Menu as Menu
 
 def battle(contestants):
     att_round = 0

@@ -9,6 +9,8 @@ class Display:
         self.text = tk.Text(self.root, height=10, width=30, font=("Courier", 12))
         self.text.pack(expand=True, fill='both')
 
+        self.back_drop("white")
+
     def run(self):
         self.root.mainloop()
 
@@ -18,3 +20,7 @@ class Display:
 
     def clear(self):
         self.text.delete(1.0, 'end')
+
+    def back_drop(self, color):
+        self.text.configure(bg=color)
+        
