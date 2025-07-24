@@ -1,23 +1,13 @@
-import scenes.main_menu as main_menu
-from battle import *
-from char_gen import *
-
-from scenes.main_menu import *
-
 from Classes.Display import *
+from scenes import sceneManager
 
 
 def main():
-    window = Display()
+    mainWindow = Display()
 
-    main_menu(window)
-
-    window.run()
-
-    """player = get_char()
-    enemy = get_char()
-    contestants = [player, enemy]
-    battle(contestants)"""
+    starting_menu = sceneManager.start(mainWindow)
+    
+    mainWindow.run()
 
 
 if __name__ == '__main__':

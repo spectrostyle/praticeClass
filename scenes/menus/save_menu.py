@@ -1,6 +1,3 @@
-import scenes.main_menu as main_menu
-from scenes.main_menu import *
-
 
 def save_menu(display):
     title = "Save Menu"
@@ -13,7 +10,7 @@ def save_menu(display):
         options.append(x)
 
     def handle_selection(choice):
-        main_menu.main_menu(display)
+        main_menu(display)
         pass
 
     saveMenu = Menu(title, options, display, navigable, when_selected=handle_selection)

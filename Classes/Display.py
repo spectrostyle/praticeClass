@@ -2,11 +2,11 @@ import tkinter as tk
 
 
 class Display:
-    def __init__(self, width=640, height=640):
+    def __init__(self, width=320, height=320):
         self.root = tk.Tk()
         self.root.geometry(f"{width}x{height}")
 
-        self.text = tk.Text(self.root, height=10, width=30, font=("Courier", 12))
+        self.text = tk.Text(self.root, height=10, width=30, font=("Arial", 12))
         self.text.pack(expand=True, fill='both')
 
         self.back_drop("white")
